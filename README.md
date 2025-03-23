@@ -11,7 +11,7 @@ Install Project Dependencies
    -npm i -D typescript
    -npm i -D ts-node-dev
    -npm i -D @types/express @types/dotenv @types/helmet @types/cors @types/http-status-codes @types/uuid @types/bcryptjs//
-   -npm install sequelize sqlite3
+   -npm install sequelize
    -npm install joi
 
 Now, simply run the dev script to launch this project:
