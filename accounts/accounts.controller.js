@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const Joi = require('joi');
-const validateRequest = require('_middleware/validate-request');
-const authorize = require('_middleware/authorize');
-const Role = require('_helpers/role');
-const accountService = require('./account.service');
+const validateRequest = require('../_middleware/validate-request'); // Fixed path
+const authorize = require('../_middleware/authorize'); // Fixed path
+const Role = require('../_helpers/role'); // Fixed path
+const accountService = require('./account.service'); // Correct import
 
 // routes
 router.post('/authenticate', authenticateSchema, authenticate);

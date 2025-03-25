@@ -3,8 +3,8 @@
       "host": "localhost",
       "port": 3306,
       "user": "root",
-      "password": "1234",
-      "database": "node-mysql-signup-verification-api"
+      "password": "root",
+      "database": "helloWorld"
     },
     "secret": "10a8029b-b87d-46d4-b150-096b7b3aebd1",
     "emailFrom": "info@node-mysql-signup-verification-api.com",

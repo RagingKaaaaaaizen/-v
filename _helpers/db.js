@@ -1,4 +1,4 @@
-const config = require('config.json');
+const config = require('../config.json'); // Fixed path
 const mysql = require('mysql2/promise');
 const Sequelize = require('sequelize');
 
@@ -16,8 +16,8 @@ async function initialize() {
     const sequelize = new Sequelize(database, user, password, { dialect: 'mysql' });
 
     // init models and add them to the exported db object
-    db.Account = require('../accounts/account.model')(sequelize);
-    db.RefreshToken = require('../accounts/refresh-token.model')(sequelize);
+    db.Account = require('../accounts/account.model')(sequelize); // Fixed path
+    db.RefreshToken = require('../accounts/refresh-token.model')(sequelize); // Fixed path
 
     // define relationships
     db.Account.hasMany(db.RefreshToken, { onDelete: 'CASCADE' });

@@ -1,6 +1,6 @@
-const { DataTypes } = require("sequelize")
+const { DataTypes } = require("sequelize");
 
-module.exports= model;
+module.exports = model;
 
 function model(sequelize) {
     const attributes = {
@@ -22,7 +22,6 @@ function model(sequelize) {
     };
 
     const options = {
-        // disable default timestamp fields (createdAt and updatedAt)
         timestamps: false
     };
 
