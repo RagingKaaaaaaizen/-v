@@ -19,22 +19,3 @@ Now, simply run the dev script to launch this project:
    -npm start
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
